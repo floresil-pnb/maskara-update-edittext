@@ -19,7 +19,7 @@ import com.santalu.maskara.mostOccurred
 class MaskEditText @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,
-    defStyleAttr: Int = com.google.android.material.R.attr.editTextStyle
+    defStyleAttr: Int = androidx.appcompat.R.attr.editTextStyle
 ) : TextInputEditText(context, attrs, defStyleAttr) {
 
     private var maskChangedListener: MaskChangedListener? = null
